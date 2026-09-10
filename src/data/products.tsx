@@ -16,7 +16,7 @@ export const COMPANY_DETAILS = {
   tradeMarkNo: "4094293",
   bisLicense: "CM/L-6300050690",
   standard: "IS 4985 : 2000",
-  capacity: "5,000 M.T. / Year",
+  capacity: "250 M.T. / Year",
   sizeRange: "20mm to 250mm (1/2\" to 10\")",
   salesOffice: "Plot No. 302 B, St. No. 6, Bhagyalaxmi Colony, Suchitra Road, Quthbullapur, Hyderabad - 55",
   worksAddress: "Plot No. 30, IDA, Kamareddy, Telangana - 503 111",
