@@ -26,23 +26,23 @@ export function Footer() {
           </h4>
           <div className="space-y-3.5 text-xs text-slate-400">
             {/* Factory Works Google Maps Link */}
-            <a
-              href="https://maps.google.com/?q=Plot+No+30+IDA+Kamareddy+Telangana+503111"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex items-start gap-2.5 p-2 -mx-2 rounded-lg transition-colors hover:bg-slate-900/80"
-              title="Open Factory Works in Google Maps"
-            >
-              <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
-              <div className="leading-relaxed">
-                <span className="text-slate-200 font-medium inline-flex items-center gap-1 group-hover:text-emerald-400 transition-colors">
-                  Factory Works <ExternalLink className="w-3 h-3 opacity-60" />
-                </span>
-                <p className="text-slate-400 group-hover:text-slate-300 transition-colors">
-                  {COMPANY_DETAILS.worksAddress}
-                </p>
-              </div>
-            </a>
+<a
+  href="https://www.google.com/maps/place/Kmrpolymers+pvt+ltd/@18.3380998,78.3159131,17.37z/data=!4m6!3m5!1s0x3bcc4992924e0601:0xa4f98c2418389449!8m2!3d18.3383565!4d78.3179443!16s%2Fg%2F11gdsgq5f3"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex items-start gap-2.5 p-2 -mx-2 rounded-lg transition-colors hover:bg-slate-900/80"
+  title="Open Factory Works in Google Maps"
+>
+  <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+  <div className="leading-relaxed">
+    <span className="text-slate-200 font-medium inline-flex items-center gap-1 group-hover:text-emerald-400 transition-colors">
+      Factory Works <ExternalLink className="w-3 h-3 opacity-60" />
+    </span>
+    <p className="text-slate-400 group-hover:text-slate-300 transition-colors">
+      {COMPANY_DETAILS.worksAddress}
+    </p>
+  </div>
+</a>
 
             {/* Sales Office Google Maps Link */}
             <a

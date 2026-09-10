@@ -19,7 +19,7 @@ export const COMPANY_DETAILS = {
   capacity: "250 M.T. / Year",
   sizeRange: "20mm to 250mm (1/2\" to 10\")",
   salesOffice: "Plot No. 302 B, St. No. 6, Bhagyalaxmi Colony, Suchitra Road, Quthbullapur, Hyderabad - 55",
-  worksAddress: "Plot No. 30, IDA, Kamareddy, Telangana - 503 111",
+  worksAddress: "Plot No. 30, IDA, Kamareddy, Telangana - 503112",
   phones: ["+91 9849055466", "+91 9849055977"],
   email: "kmrpolymers@gmail.com",
 };
