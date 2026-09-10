@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, ExternalLink } from "lucide-react";
 import { COMPANY_DETAILS } from "@/data/products";
 
 export function Footer() {
@@ -24,15 +24,44 @@ export function Footer() {
           <h4 className="text-white font-semibold text-xs uppercase tracking-wider mb-4">
             Facilities & Presence
           </h4>
-          <div className="space-y-3 text-xs text-slate-400">
-            <div className="flex items-start gap-2.5">
-              <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-              <p><strong className="text-slate-200">Factory Works:</strong> {COMPANY_DETAILS.worksAddress}</p>
-            </div>
-            <div className="flex items-start gap-2.5">
-              <MapPin className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-              <p><strong className="text-slate-200">Sales Office:</strong> {COMPANY_DETAILS.salesOffice}</p>
-            </div>
+          <div className="space-y-3.5 text-xs text-slate-400">
+            {/* Factory Works Google Maps Link */}
+            <a
+              href="https://maps.google.com/?q=Plot+No+30+IDA+Kamareddy+Telangana+503111"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-start gap-2.5 p-2 -mx-2 rounded-lg transition-colors hover:bg-slate-900/80"
+              title="Open Factory Works in Google Maps"
+            >
+              <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+              <div className="leading-relaxed">
+                <span className="text-slate-200 font-medium inline-flex items-center gap-1 group-hover:text-emerald-400 transition-colors">
+                  Factory Works <ExternalLink className="w-3 h-3 opacity-60" />
+                </span>
+                <p className="text-slate-400 group-hover:text-slate-300 transition-colors">
+                  {COMPANY_DETAILS.worksAddress}
+                </p>
+              </div>
+            </a>
+
+            {/* Sales Office Google Maps Link */}
+            <a
+              href="https://maps.google.com/?q=Plot+No+302+B+Bhagyalaxmi+Colony+Suchitra+Road+Quthbullapur+Hyderabad"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-start gap-2.5 p-2 -mx-2 rounded-lg transition-colors hover:bg-slate-900/80"
+              title="Open Sales Office in Google Maps"
+            >
+              <MapPin className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+              <div className="leading-relaxed">
+                <span className="text-slate-200 font-medium inline-flex items-center gap-1 group-hover:text-cyan-400 transition-colors">
+                  Sales Office <ExternalLink className="w-3 h-3 opacity-60" />
+                </span>
+                <p className="text-slate-400 group-hover:text-slate-300 transition-colors">
+                  {COMPANY_DETAILS.salesOffice}
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
