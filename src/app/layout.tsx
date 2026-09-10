@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KMR Polymers | BIS Certified uPVC, SWR & UGD Pipes (Kamareddy)",
+  title: "KMR Polymers",
   description:
     "Manufacturer of high-performance uPVC, Casing, SWR, and UGD pipes under brand KMR SUDHA GOLD®. IS 4985:2000 certified manufacturing facility in Kamareddy, Telangana.",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "BIS certified PVC pipes",
   ],
   openGraph: {
-    title: "KMR Polymers | KMR SUDHA GOLD® Pipes",
+    title: "KMR Polymers",
     description:
       "BIS Certified (IS 4985:2000) manufacturer of uPVC, Casing, SWR & UGD Pipes in Kamareddy & Hyderabad.",
     url: "https://kmr-polymers.vercel.app",
